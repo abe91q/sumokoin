@@ -1384,7 +1384,7 @@ namespace cryptonote
 	  return true;
   }
   //------------------------------------------------------------------------------------------------------------------------------
-  bool core_rpc_server::on_gettop(const COMMAND_RPC_GET_TOP::request& req, COMMAND_RPC_GET_TOP::response& res)
+  bool core_rpc_server::on_get_top(const COMMAND_RPC_GET_TOP::request& req, COMMAND_RPC_GET_TOP::response& res)
   {
     CHECK_CORE_BUSY();
     crypto::hash top_hash;
