@@ -167,7 +167,7 @@ namespace cryptonote
     bool on_get_version(const COMMAND_RPC_GET_VERSION::request& req, COMMAND_RPC_GET_VERSION::response& res, epee::json_rpc::error& error_resp);
     bool on_get_coinbase_tx_sum(const COMMAND_RPC_GET_COINBASE_TX_SUM::request& req, COMMAND_RPC_GET_COINBASE_TX_SUM::response& res, epee::json_rpc::error& error_resp);
     bool on_get_per_kb_fee_estimate(const COMMAND_RPC_GET_PER_KB_FEE_ESTIMATE::request& req, COMMAND_RPC_GET_PER_KB_FEE_ESTIMATE::response& res, epee::json_rpc::error& error_resp);
-    bool on_get_top(const COMMAND_RPC_GET_TOP::request& req, COMMAND_RPC_GET_TOP::response& res);
+    bool on_get_top(const COMMAND_RPC_GET_TOP::request& req, COMMAND_RPC_GET_TOP::response& res, epee::json_rpc::error& error_resp);
 
     //-----------------------
 
